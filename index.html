@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <!-- creating the admin dashboard -->
+    <div class="main-container">
+      <!-- side bar section -->
+      <div class="item one">
+        <!-- admin logo -->
+        <div class="dashboard-logo">
+          <h1>
+            <i style="margin: 0 1.3rem" class="fa-solid fa-qrcode"></i>DASHBOARD
+          </h1>
+        </div>
+
+        <!-- naigation section -->
+        <div class="navigation-links">
+          <div class="nav-links">
+            <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+
+            <a href="#"><i class="fa-solid fa-address-book"></i>Profile </a>
+
+            <a href="#"> <i class="fa-solid fa-message"></i> Message </a>
+
+            <a href="#"> <i class="fa-regular fa-clock"></i>History</a>
+
+            <a href="#"><i class="fa-solid fa-hammer"></i>Tasks</a>
+
+            <a href="#"><i class="fa-solid fa-people-line"></i>Community</a>
+          </div>
+        </div>
+        <!-- requirements necessities -->
+        <ul class="necessities">
+          <li class="necessity"><i class="fa-solid fa-gear"></i> Settings</li>
+          <li class="necessity"><i class="fa-solid fa-question"></i>Support</li>
+          <li class="necessity"><i class="fa-solid fa-shield"></i> Privacy</li>
+        </ul>
+      </div>
+
+      <!-- header container -->
+      <div class="item two">
+        <!-- search icon -->
+        <div class="top-bar">
+          <div class="search-icon">
+            <i
+              class="fa-solid fa-magnifying-glass"
+              style="margin-left: 1rem"
+            ></i>
+            <input type="text" />
+          </div>
+          <div class="profile-display">
+            <i class="fa-regular fa-bell"></i>
+            <a href="#" class="profile-link"
+              ><i class="fa-solid fa-dog logo"></i>
+              <span class="user-name">Morgan Oakley</span>
+            </a>
+          </div>
+        </div>
+        <!-- profile -->
+        <div class="profile">
+          <div class="profile-details">
+            <div class="profile-name">
+              <i class="fa-solid fa-dog logo"></i>
+              <div>
+                <p class="user-name">
+                  <span>Hi there!,</span> <br />Morgan Oakley (@morgan)
+                </p>
+              </div>
+            </div>
+
+            <div class="actions">
+              <a href="#" class="action">new</a>
+              <a href="#" class="action">Upload</a>
+              <a href="#" class="action">share</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- contents container -->
+      <div class="item three">
+        <h1 class="content-title">Your projects</h1>
+        <div class="content-grid">
+          <div class="content-item">
+            <div class="content-description">
+              <h1 class="content-header">Super Project</h1>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Praesentium inventore sunt eius accusantium reiciendis debitis
+                suscipit est
+              </p>
+            </div>
+            <div class="content-icon">
+              <i class="fa-solid fa-star icon"></i>
+              <i class="fa-regular fa-eye icon"></i>
+              <i class="fa-solid fa-link icon"></i>
+            </div>
+          </div>
+
+          <div class="content-item">
+            <div class="content-description">
+              <h1 class="content-header">Less Cool Project</h1>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Praesentium inventore sunt eius accusantium reiciendis debitis
+                suscipit est
+              </p>
+            </div>
+            <div class="content-icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-link"></i>
+            </div>
+          </div>
+          <div class="content-item">
+            <div class="content-description">
+              <h1 class="content-header">Impossible App</h1>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Praesentium inventore sunt eius accusantium reiciendis debitis
+                suscipit est
+              </p>
+            </div>
+            <div class="content-icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-link"></i>
+            </div>
+          </div>
+          <div class="content-item">
+            <div class="content-description">
+              <h1 class="content-header">Easy Peasy App</h1>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Praesentium inventore sunt eius accusantium reiciendis debitis
+                suscipit est
+              </p>
+            </div>
+            <div class="content-icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-link"></i>
+            </div>
+          </div>
+          <div class="content-item">
+            <div class="content-description">
+              <h1 class="content-header">Add blocker</h1>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Praesentium inventore sunt eius accusantium reiciendis debitis
+                suscipit est
+              </p>
+            </div>
+            <div class="content-icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-link"></i>
+            </div>
+          </div>
+          <div class="content-item">
+            <div class="content-description">
+              <h1 class="content-header">Money Maker</h1>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Praesentium inventore sunt eius accusantium reiciendis debitis
+                suscipit
+              </p>
+            </div>
+            <div class="content-icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-eye"></i>
+              <i class="fa-solid fa-link"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- announcement container -->
+      <div class="item four">
+        <!-- anouncement container -->
+        <div class="anouncement-container">
+          <h1>Announcement</h1>
+          <div class="announcements">
+            <div class="anouncement">
+              <h2 class="anouncement-header">Site Maintenance</h2>
+              <p class="anouncement-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente voluptatibus quod temporibus, alias provident dolores
+                minus.
+              </p>
+            </div>
+
+            <div class="anouncement">
+              <h2 class="anouncement-header">Community share day</h2>
+              <p class="anouncement-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente voluptatibus quod temporibus, alias provident dolores
+                minus.
+              </p>
+            </div>
+
+            <div class="anouncement">
+              <h2 class="anouncement-header">Updated privacy policy</h2>
+              <p class="anouncement-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente voluptatibus quod temporibus, alias provident dolores
+                minus.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- trending container -->
+        <div class="trending-container">
+          <h1>Trending</h1>
+          <div class="trending-item">
+            <div><i class="fa-solid fa-dog user-profile"></i></div>
+            <div>
+              <h3>@tegan</h3>
+              <p>World Peace builder</p>
+            </div>
+          </div>
+          <div class="trending-item">
+            <div><i class="fa-solid fa-dog user-profile"></i></div>
+            <div>
+              <h3>@morgan</h3>
+              <p>Super Cool Project</p>
+            </div>
+          </div>
+          <div class="trending-item">
+            <div><i class="fa-solid fa-dog user-profile"></i></div>
+            <div>
+              <h3>@kendail</h3>
+              <p>Life changing App</p>
+            </div>
+          </div>
+          <div class="trending-item">
+            <div><i class="fa-solid fa-dog user-profile"></i></div>
+            <div>
+              <h3>@alex</h3>
+              <p>No traffic Maker</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
